@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="./styles.css" />
+    </head>
+  <body>
+    <nav>
+      <h2 id="logo"><a href="/">Dee Sh</a></h2>
+      <ul class="navigation-list">
+        <li class="navigation-item"><a href="/#about">About Me</a></li>
+        <li class="navigation-item"><a href="/#projects">My Projects</a></li>
+        <li class="navigation-item"><a href="/#skills">My Skills</a></li>
+        <li class="navigation-item"><a href='/contact'>Contact Me</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Have an interesting project? I would love to hear about it!</p>
+        <div>
+            <h3>Share your project here!</h3>
+            <form id="feedback-form" onsubmit="return submitForm()">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+        
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+        
+                </select><br><br>
+        
+                <label for="description">Please describe your project:</label><br>
+                <textarea id="comments" name="comments" rows="4" cols="50" required></textarea><br><br>
+        
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
